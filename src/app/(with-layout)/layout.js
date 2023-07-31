@@ -1,11 +1,9 @@
-import Navbar from "@/component/navbar";
-
-
+import Navbar from "@/components/Navbar";
 
 const WithLayout = ({ children }) => {
   return (
     <div>
-<Navbar></Navbar>
+      <Navbar></Navbar>
       {children}
       <footer>Footer</footer>
     </div>
