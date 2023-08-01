@@ -1,11 +1,10 @@
+import SideBar from "./SideBar";
 
 
 const DashBoardLayout = ({children}) => {
     return (
-        <div>
-           <div>
-            SideBar
-           </div>
+        <div className="flex mx-20">
+           <SideBar></SideBar>
         
            {children}
         </div>
