@@ -27,7 +27,10 @@ const BlogPage = () => {
   return (
     <div className=" mx-20">
       {blogs.map(({ id, title, year }) => (
-        <Link className=" border border-blue-500 block p-2 m-4"  href={`/blog/${year}/${id}`} key={id}>
+        <Link className=" border border-blue-500 block p-2 m-4"
+        href ={{pathname: `/blog/${year}/${id}`, query: {title: title}}}
+        
+        key={id}>
           {title}
         </Link>
       ))}
