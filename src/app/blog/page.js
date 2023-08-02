@@ -1,3 +1,4 @@
+import LoadBlogsData from "@/utils/LoadBlogsData";
 import Link from "next/link";
 
 // const blogs = [
@@ -24,8 +25,7 @@ import Link from "next/link";
 // ];
 
 const BlogPage = async () => {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-  const blogs = await res.json();
+const blogs = await LoadBlogsData()
 
   return (
     <div className=" mx-20">
@@ -34,7 +34,7 @@ const BlogPage = async () => {
           <h2 className=" text-2xl font-semibold"> {title} </h2>
           <p>{body}</p>
 
-         <button className="text-red-600"> <Link href={`/blog/${id}`}> Details</Link></button>
+         <button className="text-white mt-5 bg-blue-500 m-2 p-2 rounded "> <Link href={`/blog/${id}`}> Details</Link></button>
          
         </div>
       ))}
