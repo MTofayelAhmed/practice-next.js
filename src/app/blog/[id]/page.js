@@ -1,16 +1,15 @@
-import React from 'react';
-import SideBar from '../../dashboard/SideBar';
-
-const SingleBlog = ({params}) => {
+import LoadSingleBlogData from "@/utils/LoadSingleBlogData";
 
 
-    return (
-        <div>
-           {params.id}
-          
-          
-        </div>
-    );
+const SingleBlog = async ({ params }) => {
+  const {id, title, body } = await LoadSingleBlogData({ id: params.id });
+
+  return (
+    <div className=" border border-blue-500 block p-2 m-4">
+      <h2 className=" text-2xl font-semibold"> {id}{title} </h2>
+      <p>{body}</p>
+    </div>
+  );
 };
 
 export default SingleBlog;
