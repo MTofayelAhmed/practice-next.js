@@ -1,0 +1,128 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Electronics",
+        "imageURL": "https://example.com/electronics.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Clothing",
+        "imageURL": "https://example.com/clothing.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Home Appliances",
+        "imageURL": "https://example.com/home-appliances.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Books",
+        "imageURL": "https://example.com/books.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Beauty",
+        "imageURL": "https://example.com/beauty.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Toys",
+        "imageURL": "https://example.com/toys.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Furniture",
+        "imageURL": "https://example.com/furniture.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Sports",
+        "imageURL": "https://example.com/sports.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Jewelry",
+        "imageURL": "https://example.com/jewelry.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Food",
+        "imageURL": "https://example.com/food.jpg"
+      }
+    ],
+    "products": [
+      {
+        "id": 1,
+        "title": "Smartphone",
+        "categoryId": 1,
+        "features": ["High-resolution display", "Powerful processor", "Long battery life"],
+        "imageURL": "https://example.com/smartphone.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Laptop",
+        "categoryId": 1,
+        "features": ["Fast performance", "Sleek design", "Large storage"],
+        "imageURL": "https://example.com/laptop.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Refrigerator",
+        "categoryId": 3,
+        "features": ["Large capacity", "Energy-efficient", "Adjustable shelves"],
+        "imageURL": "https://example.com/refrigerator.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Science Fiction Book",
+        "categoryId": 4,
+        "features": ["Thrilling plot", "Imaginative world-building", "Compelling characters"],
+        "imageURL": "https://example.com/science-fiction-book.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Lipstick",
+        "categoryId": 5,
+        "features": ["Vibrant color", "Long-lasting", "Moisturizing"],
+        "imageURL": "https://example.com/lipstick.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Building Blocks",
+        "categoryId": 6,
+        "features": ["Creativity and imagination", "Safe for kids", "Various shapes"],
+        "imageURL": "https://example.com/building-blocks.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Sofa",
+        "categoryId": 7,
+        "features": ["Comfortable seating", "Stylish design", "Durable materials"],
+        "imageURL": "https://example.com/sofa.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Running Shoes",
+        "categoryId": 8,
+        "features": ["Cushioned soles", "Breathable fabric", "Great for exercise"],
+        "imageURL": "https://example.com/running-shoes.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Diamond Necklace",
+        "categoryId": 9,
+        "features": ["Sparkling diamonds", "Elegant design", "Precious metal"],
+        "imageURL": "https://example.com/diamond-necklace.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Chocolate",
+        "categoryId": 10,
+        "features": ["Rich cocoa flavor", "Creamy texture", "Indulgent treat"],
+        "imageURL": "https://example.com/chocolate.jpg"
+      }
+    ]
+  }
+  
+  
