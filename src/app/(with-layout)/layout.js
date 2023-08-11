@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 
 const WithLayout = ({ children }) => {
   return (
-    <div>
+    <div className=" container mx-auto">
       <Navbar></Navbar>
       {children}
       <footer>Footer</footer>

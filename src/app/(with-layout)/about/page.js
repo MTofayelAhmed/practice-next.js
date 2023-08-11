@@ -5,7 +5,7 @@ export const metadata = {
 
 const AboutPage = () => {
     return (
-        <div>
+        <div className=" container mx-auto">
             <h2>This is about Page</h2>
 
         </div>

@@ -8,10 +8,10 @@ const Categories = async() => {
 const categories = await GetAllCategories()
     return (
         <div>
-            <h1>Categories </h1>
-           <div className=" container mx-auto block">
+            <h1 className=" font-roboto font-semibold text-2xl">Categories </h1>
+           <div>
            {
-                categories.map((category)=> <SingleCategory key={category.id} category ={category}></SingleCategory>)
+                categories.map((category)=> <SingleCategory key={category.id} category={category}></SingleCategory>)
             }
 
            </div>
