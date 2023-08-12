@@ -1,7 +1,11 @@
 import React from 'react';
 
 const GetAllCategories = async() => {
-const res = await fetch ('http://localhost:5000/categories')
+const res = await fetch ('http://localhost:5000/categories',{
+    next:{
+        revalidate: 5
+    }
+})
 return res.json()
 };
 
