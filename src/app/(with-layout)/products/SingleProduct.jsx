@@ -1,10 +1,11 @@
+import Link from "next/link";
 
 
 const SingleProduct = ({product}) => {
     const {id, title, price} = product
     return (
         <div>
-         <h1>{title}</h1>
+       <Link href={`/products/${id}`}>{title}</Link>
         </div>
     );
 };
