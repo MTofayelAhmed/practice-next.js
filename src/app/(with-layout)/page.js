@@ -1,7 +1,6 @@
 
 import Categories from '@/components/Homepage/Categories';
-
-
+export const revalidate = 5
 
 const HomePage = () => {
   return (
