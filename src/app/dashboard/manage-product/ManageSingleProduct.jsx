@@ -1,4 +1,4 @@
-const ManageSingleProduct = ({ product, openModal}) => {
+const ManageSingleProduct = ({ product, openModal, handleDelete}) => {
     const { id, title, price, categoryId, imageUrl } = product;
   
     return (
@@ -15,7 +15,7 @@ const ManageSingleProduct = ({ product, openModal}) => {
         </td>
         <td className="border border-slate-400">
           <button
-          
+           onClick={() => handleDelete(id)}
             className="bg-blue-500 text-white px-3 py-2 rounded-md"
           >
             Delete
