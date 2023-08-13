@@ -223,7 +223,7 @@
     {
       "id": 16,
       "title": "iPad Pro",
-      "price": 1099,
+      "price": "1033",
       "categoryId": 1,
       "features": [
         "M1 chip",
