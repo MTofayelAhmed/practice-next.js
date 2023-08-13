@@ -1,12 +1,23 @@
 
 
-const ManageProduct = () => {
-    return (
-        <div>
-            <h1>this is manage product</h1>
+import GetAllProducts from "@/utils/GetAllProducts";
+import ManageProduct from "./ManageProduct";
 
-        </div>
-    );
+
+
+export const metadata = {
+  title: "Manage Products | Dashboard | Next Hero",
+  description: "Next Hero",
 };
 
-export default ManageProduct;
+const ManageProductsPage = async () => {
+const products = await GetAllProducts()
+  return (
+    <div className="w-full mt-10">
+      <h1 className="mb-5 text-2xl font-semibold">Manage Products</h1>
+      <ManageProduct products={products} />
+    </div>
+  );
+};
+
+export default ManageProductsPage;

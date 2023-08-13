@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 const GetAllProducts = async (categoryId) => {
   let url = "http://localhost:5000/products"
